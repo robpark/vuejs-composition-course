@@ -1,7 +1,8 @@
 declare module '*.vue' {
-  export default any
+    import any = jasmine.any;
+    export default any
 }
 
-declare module '*.txt' {
-  export default string
-}
+// declare module '*.txt' {
+//   export default string
+// }
