@@ -1,6 +1,5 @@
 import { mount } from '@vue/test-utils';
 import Timeline from "./Timeline.vue";
-import { nextTick } from 'vue';
 
 describe('Timeline', () => {
   it('renders 3 time periods', () => {

@@ -1,8 +1,8 @@
 <template>
   <a data-test="post" class="panel-block">
     <div>
-      <a>{{ post.title }}</a>
-      <div>{{ post.created.format('Do MMM') }}</div>
+      <a data-test="title">{{ post.title }}</a>
+      <div data-test="created">{{ post.created.format('Do MMM') }}</div>
     </div>
   </a>
 </template>
